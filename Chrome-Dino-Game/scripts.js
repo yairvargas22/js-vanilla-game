@@ -91,6 +91,6 @@ function resetAnimation() {
     void cactus.offsetWidth;
     cactus.classList.add("animatedCactus");
 }
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
     resetGame();
 })
